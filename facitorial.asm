@@ -7,7 +7,8 @@ main:
 	la $a0, prompt_input
 	li $v0, 4
 	syscall
-
+	
+	li $v0, 5
 	#store the values
 	addi $t0, $v0, 0
 
